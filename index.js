@@ -47,9 +47,7 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use(cors(corsOptions));
 app.use(cookieParser());
-// app.use('/api/v1/mentor', mentorRoute);
-// app.use('/api/v1/student', studentRoute);
-// app.use('/api/v1/assignm', assignmentRoute);
+
 
 
 // mentor schema
