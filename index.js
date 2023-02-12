@@ -3,8 +3,7 @@ import dotenv from 'dotenv'
 import mongoose from 'mongoose'
 import cors from 'cors'
 import cookieParser from 'cookie-parser'
-// import studentRoute from './routes/student.js'
-// import mentorRoute from './routes/mentor.js'
+
 
 dotenv.config()
 const app = express();
